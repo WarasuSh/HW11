@@ -27,12 +27,16 @@
     background-size: cover;
     grid-area: bag;
     background-position: center;
+    box-shadow: inset 0px -30px 30px 0px white;
+    cursor: pointer;
 }
 .watches{
     background-image: url(../img/watch.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: watches;
+    box-shadow: inset 0px -35px 30px 0px white;
+    cursor: pointer;
 }
 .shoes{
     background: url(../img/shoes.jpg);
@@ -40,4 +44,36 @@
     background-size: cover;
     grid-area: shoes;
     background-position: center;
+    box-shadow: inset 0px -30px 30px 0px white;
+    cursor: pointer;
+}
+.navbar{
+    box-shadow: 0px 6px 20px -6px black;
+}
+.main-container_v2{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+h6{
+    text-align: center;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover h6{
+    text-decoration: underline;
+}
+.bag:hover h2{
+    text-decoration: underline;
+}
+.watches:hover h2{
+    text-decoration: underline;
+}
+.shoes:hover h2{
+    text-decoration: underline;
 }
