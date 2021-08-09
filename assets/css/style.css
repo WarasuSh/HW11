@@ -77,3 +77,13 @@ h6{
 .shoes:hover h2{
     text-decoration: underline;
 }
+.call {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.call-text{
+    text-align: center;
+}
