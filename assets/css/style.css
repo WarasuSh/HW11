@@ -1,0 +1,43 @@
+.special-nav a{
+    color: lightgray;
+    text-decoration: none;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid lightgray;
+}
+.special-nav a:first-child{
+    color: black;
+}
+.main-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 150px;
+    grid-template-areas: 
+    "guys guys guys"
+    "bag watches shoes";
+}
+.guys{
+    background: url(../img/men.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: guys;
+}
+.bag{
+    background: url(../img/bag.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: bag;
+    background-position: center;
+}
+.watches{
+    background-image: url(../img/watch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: watches;
+}
+.shoes{
+    background: url(../img/shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: shoes;
+    background-position: center;
+}
